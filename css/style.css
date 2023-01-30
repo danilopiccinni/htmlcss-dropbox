@@ -7,3 +7,50 @@
     border: 0.5px solid red;
 }
 
+.cont-nav {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont-nav ul {
+    height: 100%;
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cont-nav-dx,.cont-nav-sx {
+
+    min-width: calc(100vw / 4);
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+/* --------------------------- */
+/* test */
+
+
+header,main{
+    padding: 10px 50px;
+}
+
+nav {
+    height: 70px;
+}
+
+
+
