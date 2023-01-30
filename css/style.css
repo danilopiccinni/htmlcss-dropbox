@@ -7,18 +7,31 @@
     border:  0.5px solid red;
 }
 
+/* attributi ripetuti */
+
+.pulsante-blu a {
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 10px;
+}
+
 .cont-centered {
     padding: 50px 20% 0 20%;
 }
 
 /* --------------------------- */
 /* nav */
+nav {
+    height: 50px;
+}
+
+
 .cont-nav {
     height: 100%;
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
 }
 
 .cont-nav ul {
@@ -27,19 +40,26 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .cont-nav-dx,.cont-nav-sx {
 
-    min-width: calc(100vw / 4);
+    min-width: calc(100vw / 3);
     height: 100%;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.cont-nav ul li a {
+    font-size: small;
+    text-decoration: none;
+    color: gray;
 }
 /* /nav */
 /* --------------------------- */
@@ -148,8 +168,11 @@ header {
 /* /sezione 3 */
 
 
+
+
+
 /* --------------------------- */
-/* sezione designit*/
+/* sezione loghi*/
 
 .cont-designit {
     width: 100vw;
@@ -182,7 +205,6 @@ div.logo {
 
 
 
-
 /* foot-designit */
 
 .foot-designit {
@@ -190,7 +212,7 @@ div.logo {
     justify-content: space-between;
 }
 
-/* sezione designit*/
+/* sezione loghi*/
 /* --------------------------- */
 /* /main */
 /* -------------------------------------------------- */
@@ -204,16 +226,12 @@ div.logo {
 /* --------------------------- */
 /* footer */
 
-
 .cont-liste {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
-
-
-
 
 /* /footer */
 /* --------------------------- */
@@ -222,14 +240,6 @@ div.logo {
 
 
 
-
-/* --------------------------- */
-/* test */
-
-
-nav {
-    height: 70px;
-}
 
 
 
