@@ -8,7 +8,7 @@
 }
 
 .cont-centered {
-    padding: 0 20%
+    padding: 50px 20% 0 20%;
 }
 
 /* --------------------------- */
@@ -74,6 +74,95 @@ header {
     z-index: -1;
     background-color: aqua;
 }
+
+/* /header */
+/* --------------------------- */
+
+
+
+
+/* --------------------------------------------------- */
+/* main */
+
+
+/* sezione 1 */
+.col-abo {
+    width: 30%;
+}
+
+.cont-abbonamenti {
+    display: flex;
+    justify-content: space-between;
+
+    /* text */
+    height: 500px;
+}
+
+.enterprise-oriz {
+
+    /* text */
+    height: 100px;
+}
+/* /sezione 1 */
+/* --------------------------- */
+
+
+
+/* --------------------------- */
+/* sezione 2 */
+
+.cont-section2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2-dx {
+    width: 35%;
+}
+/* /sezione 2 */
+/* --------------------------- */
+
+
+
+/* --------------------------- */
+/* sezione 3 */
+
+.vantaggi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    
+}
+
+.vantaggio {
+    display: flex;
+    flex-direction: column;
+
+
+    width: 30%;
+}
+
+
+/* --------------------------- */
+/* /sezione 3 */
+
+
+
+
+
+
+
+
+/* /main */
+/* -------------------------------------------------- */
+
+
+
+
+
+
+
 
 
 /* --------------------------- */
