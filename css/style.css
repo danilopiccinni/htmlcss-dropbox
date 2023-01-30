@@ -148,17 +148,77 @@ header {
 /* /sezione 3 */
 
 
+/* --------------------------- */
+/* sezione designit*/
+
+.designit {
+    padding-top: 50px;
+
+}
+
+.cont-designit {
+width: 100vw;
+height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont-designit-center {
+    max-width: 30%;
+;
+    
+}
+
+.cont-designit-ex {
+    min-width: 35%;
+
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cont-designit-ex img {
+
+    width: 50%;
+    height: 50%;
+}
 
 
+/* foot-designit */
 
+.foot-designit {
+    display: flex;
+    justify-content: space-between;
+}
 
-
-
+/* sezione designit*/
+/* --------------------------- */
 /* /main */
 /* -------------------------------------------------- */
 
 
 
+
+
+
+
+/* --------------------------- */
+/* footer */
+
+
+.cont-liste {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+
+/* /footer */
+/* --------------------------- */
 
 
 
