@@ -387,9 +387,23 @@ header {
 }
 
 .features-center {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+
+    padding: 20px;
     max-width: 30%;
     flex-grow: 1;
 }
+
+.features-center h2 {
+    font-size: 80px;
+}
+
+.features-center hr {
+    width: 15%;
+}
+
 
 .features-dx {
     display: flex;
@@ -408,6 +422,7 @@ header {
 }
 
 .features img {
+    filter: invert(1);
     width: 50%;
 }
 
