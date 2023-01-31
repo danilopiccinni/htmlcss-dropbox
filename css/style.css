@@ -467,6 +467,9 @@ header {
 
 }
 
+
+/* sezione foot-loghi */
+
 .foot-loghi {
     width: 100%;
     height: calc(100vw / 6);
@@ -486,15 +489,20 @@ header {
 }
 
 
-
-/* sezione loghi*/
+/* /sezione loghi*/
 /* --------------------------- */
 /* /main */
 /* -------------------------------------------------- */
 
+.section-faq {
+    padding-top: 100px;
+    height: calc(100vw / 6);
 
+}
 
-
+.section-faq h2,.section-faq p {
+    padding: 40px 0;
+}
 
 
 
