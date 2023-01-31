@@ -17,7 +17,7 @@
 }
 
 .cont-centered {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     margin-bottom: 50px;
 }
@@ -364,15 +364,8 @@ header {
 
 
 
-
-
 /* sezione 4 */
 /* --------------------------- */
-
-
-
-
-
 
 
 
@@ -380,43 +373,94 @@ header {
 /* --------------------------- */
 /* sezione loghi*/
 
-.cont-designit {
-    width: 100%;
+.features {
     display: flex;
     justify-content: space-between;
+}
+
+.logo {
+    display: flex;
     align-items: center;
-
+    justify-content: center;
+    width: 50%;
+    height: 50%;
 }
 
-.sx,.dx {
-    min-width: 350px;
+.features-center {
+    max-width: 30%;
+    flex-grow: 1;
 }
 
-.center {
+.features-dx {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+.features-sx {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+}
+
+.features img {
     width: 50%;
 }
 
-div.logo {
-    display: inline-block;
+.logo1 {
+    background-color: #a2d39b;
+    border: 10px solid #d2e9cd;
+}
 
+.logo2 {
+    
+    background-color: #61082b;
 
-/* misure che calcono il bordo di prova */
-    width: 174px;
-    height: 174px;
+}
 
-    background-color: blue;
+.logo3 {
+    background-color: #0093ce;
+
+}
+
+.logo4 {
+    background-color: #ff1c1c;
+
+}
+
+.logo5 {
+    background-color: #d5011f;
+
+}
+
+.logo6 {
+    background-color: #b4d1e7;
+
+}
+
+.logo7 {
+    background-color: #0d2481;
+
+}
+
+.logo8 {
+    background-color: #fed92f;
+
 }
 
 
 
 
 
-/* foot-designit */
 
-.foot-designit {
-    display: flex;
-    justify-content: space-between;
-}
+
+
+
+
 
 /* sezione loghi*/
 /* --------------------------- */
