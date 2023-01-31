@@ -17,24 +17,23 @@
 }
 
 .cont-centered {
-    padding: 50px 20% 0 20%;
-
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 /* --------------------------- */
 /* nav */
 nav {
+    width: 100vw;
     height: 50px;
 }
-
-
 
 .cont-nav {
     height: 100%;
 
     display: flex;
     justify-content: space-between;
-
 }
 
 .cont-nav ul {
@@ -78,6 +77,9 @@ h1 {
 }
 
 .cont-centered-header {
+    min-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
     padding: 50px 15% 0 15%;
 }
 .cont-heaeder-descript {
@@ -92,7 +94,7 @@ header {
 .cont-header-sx {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
     width: 30%;
 
     font-size: small;
@@ -134,13 +136,32 @@ header {
 /* --------------------------------------------------- */
 /* main */
 
-
+/* --------------------------- */
 /* sezione 1 */
+
+/* /sezione colonne */
+
+.col-abo {
+    width: 30%;
+    border: 1px solid gray;
+    
+}
+
+.cont-abbonamenti {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-bottom: 50px;
+}
+
+
 
 .section1 h2 {
     font-size: 50px;
     padding-top: 20px;
 }
+
 
 .section1 h2,.section1 .fatturazione {
     padding-bottom: 2em;
@@ -163,11 +184,6 @@ header {
 .abo-type strong {
     font-size: x-large;
     padding-top: 1em;
-}
-.col-abo {
-    width: 30%;
-    border: 1px solid gray;
-
 }
 
 .fatturazione {
@@ -210,17 +226,13 @@ header {
     list-style-image: url();
 }
 .punti-salienti li {
-    padding-top: 2em;
-    
+    padding-top: 2em; 
 }
+/* /sezione colonne */
 
-.cont-abbonamenti {
-    display: flex;
-    justify-content: space-between;
 
-    margin-bottom: 50px;
 
-}
+/* sezione orizzontale  */
 
 .enterprise-oriz {
     padding-top: 50px;
@@ -242,8 +254,7 @@ header {
     font-size: 40px;
 }
 
-
-
+/* /sezione orizzontale  */
 
 
 /* /sezione 1 */
@@ -251,17 +262,45 @@ header {
 
 
 
+
+
 /* --------------------------- */
 /* sezione 2 */
 
-.cont-section2 {
+.section2 {
     display: flex;
-    justify-content: space-between;
+}
+
+.section2-sx {
+    min-width: 60%;
+}
+
+.section2-sx img {
+    width: 100%;
 }
 
 .section2-dx {
-    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 50px;
 }
+
+.section2 button {
+    padding: 10px 10px;
+    text-align: left;
+}
+
+.section2 h3 {
+    font-size: 2em;
+}
+
+.section2 p {
+    font-size: 1.5em;
+}
+
+
+
 /* /sezione 2 */
 /* --------------------------- */
 
