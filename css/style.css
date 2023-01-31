@@ -13,6 +13,7 @@
     color: white;
     background-color: #0061ff;
     padding: 10px 10px;
+    text-align: center;
 }
 
 .cont-centered {
@@ -25,9 +26,7 @@ nav {
     height: 50px;
 }
 
-h1 {
-    font-size: 50px;
-}
+
 
 .cont-nav {
     height: 100%;
@@ -59,6 +58,7 @@ h1 {
     justify-content: center;
 }
 
+
 .cont-nav a {
     font-size: small;
     text-decoration: none;
@@ -71,6 +71,14 @@ h1 {
 
 /* --------------------------- */
 /* header */
+
+h1 {
+    font-size: 4em;
+}
+
+.cont-centered-header {
+    padding: 50px 15% 0 15%;
+}
 .cont-heaeder-descript {
     display: flex;
     gap: 2%;
@@ -127,16 +135,88 @@ header {
 
 
 /* sezione 1 */
+
+.section1 h2 {
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.section1 h2,.section1 .fatturazione {
+    padding-bottom: 2em;
+}
+
+.t-head {
+    text-align: center;
+    border: 1px solid gray;
+    padding: 0.5em;
+}
+
+.abo-type {
+    margin-left: 2em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.abo-type strong {
+    font-size: x-large;
+    padding-top: 1em;
+}
 .col-abo {
     width: 30%;
+    border: 1px solid gray;
+
+}
+
+.fatturazione {
+    font-size: 1.5em;
+}
+
+.cerchio-segnato {
+    border: 5px solid blue;
+    border-radius: 50%;
+
+}
+
+.icona {
+    margin-right: 5px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+}
+
+.compra-prova{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    padding: 2em;
+}
+
+.compra-prova hr{
+    width: 25%;
+}
+
+.punti-salienti {
+    padding: 2em;
+}
+
+.punti-salienti ul {
+    list-style-image: url();
+}
+.punti-salienti li {
+    padding-top: 2em;
+    
 }
 
 .cont-abbonamenti {
     display: flex;
     justify-content: space-between;
 
-    /* text */
-    height: 500px;
 }
 
 .enterprise-oriz {
@@ -196,7 +276,7 @@ header {
 /* sezione loghi*/
 
 .cont-designit {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
