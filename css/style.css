@@ -7,6 +7,10 @@
     /* border:  0.5px solid red; */
 }
 
+body {
+    position: relative;
+}
+
 /* attributi ripetuti */
 
  #pulsante-blu {
@@ -25,8 +29,12 @@
 /* --------------------------- */
 /* nav */
 nav {
+    position: fixed;
+    z-index: 5;
+
     width: 100%;
     height: 50px;
+    background-color: white;
 }
 
 .cont-nav {
@@ -81,6 +89,8 @@ h1 {
 
 header {
     position: relative;
+    padding-top: 20px;
+
 }
 
 .cont-header-sx {
@@ -113,7 +123,7 @@ header {
 
 .parzial-background {
     position: absolute;
-    height: 90%;
+    height: 85%;
     width: 100%;
     z-index: -1;
     background-color: #b4d0e7;
