@@ -575,7 +575,57 @@ footer {
 /* /footer */
 /* --------------------------- */
 
+.visible {
+    padding: 50px;
+}
 
+.hovers{
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+.cont-faq {
+    position: relative;
+}
+
+
+.visibile {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1.5em;
+
+    border-top: 1.5px solid black;
+    
+}
+
+.fa-angle-up {
+    position: absolute;
+
+    top: 1.5em;
+    right: 1.5em;
+    display: none;
+}
+
+.hovers span {
+    display: none;
+}
+
+.cont-faq:hover .hovers span {
+    display: contents;
+
+}
+
+.cont-faq:hover .hovers .fa-angle-up {
+    display: flex;
+}
+
+.cont-faq:hover .visibile .fa-angle-down {
+    display: none;
+}
+
+.section-faq .faq:last-child {
+    border-bottom: 1.5px solid black;
+}
 
 
 
