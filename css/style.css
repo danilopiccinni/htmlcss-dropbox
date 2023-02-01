@@ -55,7 +55,7 @@ nav {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 
@@ -513,6 +513,12 @@ footer {
     margin-top: 100px;
 
     background-color: black;
+}
+
+.cont-footer-centered {
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .cont-footer * {
