@@ -73,7 +73,7 @@ nav {
 /* header */
 
 h1 {
-    font-size: 4em;
+    font-size: 5em;
 }
 
 .cont-centered-header {
@@ -99,12 +99,17 @@ header {
     gap: 50px;
     width: 30%;
 
-    font-size: small;
+    font-size: 1.5em;
 }
+
+
+
 
 .fa-arrow-down{
     font-size: 50px;
     color: black;
+    padding-top: 100px;
+    padding-bottom: 120px;
 }
 
 .cont-header-title {
