@@ -31,7 +31,7 @@ nav {
 
 .cont-nav {
     height: 100%;
-
+    padding: 0 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -42,21 +42,13 @@ nav {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.cont-nav-dx,.cont-nav-sx {
 
-    min-width: calc(100vw / 3);
-    height: 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 
 
 .cont-nav a {
