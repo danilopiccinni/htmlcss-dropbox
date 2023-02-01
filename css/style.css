@@ -303,18 +303,7 @@ header {
     padding: 50px 50px;
 }
 
-.section2 button {
 
-
-}
-
-.section2 h3 {
-
-}
-
-.section2 p {
-
-}
 
 /* /sezione 2 */
 /* --------------------------- */
@@ -504,7 +493,14 @@ header {
 
 .foot-loghi-sx h2 {
     width: 70%;
-    font-size: 2.5em;
+    font-size: 2em;
+}
+
+.foot-loghi-dx button {
+    padding: 5px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
 }
 
 
@@ -513,15 +509,6 @@ header {
 /* /main */
 /* -------------------------------------------------- */
 
-.section-faq {
-    margin-top: 100px;
-    height: calc(100vw / 6);
-
-}
-
-.section-faq h2,.section-faq p {
-    margin: 40px 0;
-}
 
 
 
@@ -574,6 +561,10 @@ footer {
 
 /* /footer */
 /* --------------------------- */
+
+.section-faq h2 {
+    padding: 3em 0;
+}
 
 .visible {
     padding: 50px;
